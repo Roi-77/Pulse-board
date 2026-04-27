@@ -4,7 +4,6 @@ import { HabitWidget } from './components/habitWidget';
 import { GrowthChart } from './components/growthChart';
 import { LeadCapture } from './components/leadCapture';
 import { motion, type Variants } from 'framer-motion';
-
 import './App.css';
 
 const containerVariants = {
@@ -27,9 +26,7 @@ function App() {
           <h1 className='text-5xl font-extrabold text-amber-500 text-center md:text-left leading-none'>
             ACTIVITY-TRACKER <br/> 
             <span className='text-gray-400 font-normal mt-2 text-lg ml-1'>Visually Tracking my Activity Progress</span>
-          </h1>
-            <LeadCapture />
-          
+          </h1>          
         </div>
       </header>
 
@@ -43,6 +40,7 @@ function App() {
             variants={containerVariants as Variants} 
             className="md:col-span-8">
             <GrowthChart/>
+            <LeadCapture />
           </motion.div>
         </div>
 

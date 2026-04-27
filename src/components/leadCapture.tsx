@@ -22,8 +22,10 @@ export const LeadCapture = () =>{
         {/*<p className="text-slate-400 mb-6">Get weekly growth reports and productivity deep-dives.</p>*/}
         
         <form onSubmit={handleSubmit} className="relative group">
-          <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 group-focus-within:text-cyan-400 transition-colors" size={20} />
+          <label htmlFor="email-address" className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 group-focus-within:text-cyan-400 transition-colors"></label>
           <input 
+            id="email-address"
+            name="email"
             type="email" 
             required
             placeholder="Enter your email..."
