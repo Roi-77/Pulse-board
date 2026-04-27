@@ -5,7 +5,6 @@ A static work pulseboard for visualizing and tracking productivity metrics.
 ## Features
 
 - Real-time pulse data visualization
-- Customizable dashboards
 - Static site generation for easy deployment
 
 ## Installation
