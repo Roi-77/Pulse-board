@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Send } from 'lucide-react';
+import { Send } from 'lucide-react';
 
 export const LeadCapture = () =>{
   const [email, setEmail] = useState('');
